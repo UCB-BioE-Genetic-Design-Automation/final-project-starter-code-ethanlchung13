@@ -1,0 +1,58 @@
+name	Box_Lyc15								
+description	Samples specific for Lycopene15								
+room	Donner180								
+									
+label	1	2	3	4	5	6	7	8	9
+A	PF3b uM100	odxs1 uM100	ojpsDF1 uM100	oispG1 dil20x	 	 	 	 	 
+B	PF3b uM100	odx2 uM100	ojpdDF2 uM100	oispG2 dil20x	 	 	 	 	 
+C	15b uM100	odsx3 uM100	ojpsDF3 uM100	oispG3 dil20x	 	 	 	 	 
+D	xB uM100	odxs4 uM100	ojpsDF4 uM100	 	 	 	 	 	 
+E	xC uM100	slyc11 uM100	slyc12 uM100	 	 	 	 	 	 
+F	dfA uM100	x uM100	df uM100	 	 	 	 	 	 
+G	dfC uM100	olyc9 uM100	olyc11 uM100	 	 	 	 	 	 
+H	gA uM100	olyc10 uM100	olyc12 uM100	 	 	 	 	 	 
+I	55F uM100	olyc6 uM100	olyc7 uM100	 	 	 	 	 	 
+									
+side_label	1	2	3	4	5	6	7	8	9
+A	PF3b	odxs1	ojpsDF1	oispG1					
+B	PF3b	odx2	ojpdDF2	oispG2					
+C	15b	odsx3	ojpsDF3	oispG3					
+D	xB	odxs4	ojpsDF4						
+E	xC	slyc11	slyc12						
+F	dfA	x	df						
+G	dfC	olyc9	olyc11						
+H	gA	olyc10	olyc12						
+I	55F	olyc6	olyc7						
+									
+construct	1	2	3	4	5	6	7	8	9
+A	PF3b	odxs1	ojpsDF1	oispG1					
+B	PF3b	odx2	ojpdDF2	oispG2					
+C	15b	odsx3	ojpsDF3	oispG3					
+D	xB	odxs4	ojpsDF4						
+E	xC	slyc11	slyc12						
+F	dfA	x	df						
+G	dfC	olyc9	olyc11						
+H	gA	olyc10	olyc12						
+I	55F	olyc6	olyc7						
+									
+concentration	1	2	3	4	5	6	7	8	9
+A	uM100	uM100	uM100	dil20x					
+B	uM100	uM100	uM100	dil20x					
+C	uM100	uM100	uM100	dil20x					
+D	uM100	uM100	uM100						
+E	uM100	uM100	uM100						
+F	uM100	uM100	uM100						
+G	uM100	uM100	uM100						
+H	uM100	uM100	uM100						
+I	uM100	uM100	uM100						
+									
+culture	1	2	3	4	5	6	7	8	9
+A	primary	primary	primary	primary					
+B	primary	primary	primary	primary					
+C	primary	primary	primary	primary					
+D	primary	primary	primary						
+E	primary	primary	primary						
+F	primary	primary	primary						
+G	primary	primary	primary						
+H	primary	primary	primary						
+I	primary	primary	primary						

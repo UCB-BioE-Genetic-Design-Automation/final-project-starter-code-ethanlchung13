@@ -1,0 +1,58 @@
+name	Box_Lyc7								
+description	Samples specific for Lycopene7								
+room	Donner166								
+									
+label	1	2	3	4	5	6	7	8	9
+A	PF3b uM100	odxs1 uM100	ojpsDF1 uM100	oispG1 dil20x	64 dil20x	slyc11 dil20x	oBcaGF dil20x	15U1 uM10	slyc7 uM10
+B	PF3b uM100	odx2 uM100	ojpdDF2 uM100	oispG2 dil20x	106 dil20x	oBcaGF dil20x	oBmGF dil20x	15L2 uM11	15L2 uM11
+C	15b uM100	odsx3 uM100	ojpsDF3 uM100	oispG3 dil20x	111 dil20x	oBmGF dil20x	oPfGF dil20x	15S1 uM12	olyc6 uM12
+D	xB uM100	odxs4 uM100	ojpsDF4 uM100	oispG4 dil20x	dxs dil20x	oPfGF dil20x	oispG5 dil20x	15O1 uM13	olyc7 uM13
+E	xC uM100	slyc11 uM100	slyc12 uM100	slyc13 dil20x	DF dil20x	oispG5 dil20x	oBcaGR dil20x	15M1 uM14	olyc8 uM14
+F	dfA uM100	x uM100	df uM100	g dil20x	G dil20x	oBcaGR dil20x	oBmGR dil20x	b112 uM15	55F uM15
+G	dfC uM100	olyc9 uM100	olyc11 uM100	olyc13 dil20x	dxs2 dil20x	oBmGR dil20x	oPfGR dil20x	olyc9 uM16	olyc12 uM16
+H	gA uM100	olyc10 uM100	olyc12 uM100	olyc14 dil20x	DF1 dil20x	oPfGR dil20x	oPfGR dil20x	olyc9 uM17	olyc13 uM17
+I	55F uM100	olyc6 uM100	olyc7 uM100	olyc8 dil20x	1C dil20x	p20N80 dil20x	oPfGR dil20x	olyc11 uM18	olyc14 uM18
+									
+side_label	1	2	3	4	5	6	7	8	9
+A	PF3b	odxs1	ojpsDF1	oispG1	64	slyc11	oBcaGF	15U1	slyc7
+B	PF3b	odx2	ojpdDF2	oispG2	106	oBcaGF	oBmGF	15L2	15L2
+C	15b	odsx3	ojpsDF3	oispG3	111	oBmGF	oPfGF	15S1	olyc6
+D	xB	odxs4	ojpsDF4	oispG4	dxs	oPfGF	oispG5	15O1	olyc7
+E	xC	slyc11	slyc12	slyc13	DF	oispG5	oBcaGR	15M1	olyc8
+F	dfA	x	df	g	G	oBcaGR	oBmGR	b112	55F
+G	dfC	olyc9	olyc11	olyc13	dxs2	oBmGR	oPfGR	olyc9	olyc12
+H	gA	olyc10	olyc12	olyc14	DF1	oPfGR	oPfGR	olyc9	olyc13
+I	55F	olyc6	olyc7	olyc8	1C	p20N80	oPfGR	olyc11	olyc14
+									
+construct	1	2	3	4	5	6	7	8	9
+A	PF3b	odxs1	ojpsDF1	oispG1	64	slyc11	oBcaGF	15U1	slyc7
+B	PF3b	odx2	ojpdDF2	oispG2	106	oBcaGF	oBmGF	15L2	15L2
+C	15b	odsx3	ojpsDF3	oispG3	111	oBmGF	oPfGF	15S1	olyc6
+D	xB	odxs4	ojpsDF4	oispG4	dxs	oPfGF	oispG5	15O1	olyc7
+E	xC	slyc11	slyc12	slyc13	DF	oispG5	oBcaGR	15M1	olyc8
+F	dfA	x	df	g	G	oBcaGR	oBmGR	b112	55F
+G	dfC	olyc9	olyc11	olyc13	dxs2	oBmGR	oPfGR	olyc9	olyc12
+H	gA	olyc10	olyc12	olyc14	DF1	oPfGR	oPfGR	olyc9	olyc13
+I	55F	olyc6	olyc7	olyc8	1C	p20N80	oPfGR	olyc11	olyc14
+									
+concentration	1	2	3	4	5	6	7	8	9
+A	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM10	uM10
+B	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM11	uM11
+C	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM12	uM12
+D	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM13	uM13
+E	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM14	uM14
+F	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM15	uM15
+G	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM16	uM16
+H	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM17	uM17
+I	uM100	uM100	uM100	dil20x	dil20x	dil20x	dil20x	uM18	uM18
+									
+culture	1	2	3	4	5	6	7	8	9
+A	primary	primary	primary	primary	primary	primary	primary	primary	primary
+B	primary	primary	primary	primary	primary	primary	primary	primary	primary
+C	primary	primary	primary	primary	primary	primary	primary	primary	primary
+D	primary	primary	primary	primary	primary	primary	primary	primary	primary
+E	primary	primary	primary	primary	primary	primary	primary	primary	primary
+F	primary	primary	primary	primary	primary	primary	primary	primary	primary
+G	primary	primary	primary	primary	primary	primary	primary	primary	primary
+H	primary	primary	primary	primary	primary	primary	primary	primary	primary
+I	primary	primary	primary	primary	primary	primary	primary	primary	primary

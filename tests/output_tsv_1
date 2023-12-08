@@ -1,0 +1,58 @@
+name	box1
+description	Example box being used for testing of box class functions.
+room	room1
+
+label	1	2	3	4	5	6	7	8	9
+A	plasmid2 uM10 uM10	plasmid3 uM10 uM10	plasmid1 dil20x dil20x	plasmid4 uM10 uM10	plasmid5 uM10 uM10	plasmid6 uM10 uM10	plasmid7 uM10 uM10	plasmid8 uM10 uM10	plasmid9 uM10 uM10	
+B										
+C										
+D										
+E										
+F										
+G										
+H										
+I										
+
+side_label	1	2	3	4	5	6	7	8	9
+A	plasmid2	plasmid3	plasmid1	plasmid4	plasmid5	plasmid6	plasmid7	plasmid8	plasmid9	
+B										
+C										
+D										
+E										
+F										
+G										
+H										
+I										
+
+construct	1	2	3	4	5	6	7	8	9
+A	plasmid2	plasmid3	plasmid1	plasmid4	plasmid5	plasmid6	plasmid7	plasmid8	plasmid9	
+B										
+C										
+D										
+E										
+F										
+G										
+H										
+I										
+
+concentration	1	2	3	4	5	6	7	8	9
+A	uM10	uM10	dil20x	uM10	uM10	uM10	uM10	uM10	uM10	
+B										
+C										
+D										
+E										
+F										
+G										
+H										
+I										
+
+culture	1	2	3	4	5	6	7	8	9
+A	primary	primary	primary	primary	primary	primary	primary	primary	primary	
+B										
+C										
+D										
+E										
+F										
+G										
+H										
+I										

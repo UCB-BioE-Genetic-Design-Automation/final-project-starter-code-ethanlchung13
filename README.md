@@ -1,53 +1,7 @@
-### Setting Up a Virtual Environment and pytest
 
-For isolation of project dependencies, it's a good practice to use a virtual environment. Here's how you can set one up:
+# Inventory
 
-1. Navigate to the project directory if you're not already there.
-
-2. Create a virtual environment:
-   ```
-   python3 -m venv venv
-   ```
-
-3. Activate the virtual environment:
-   - On Windows:
-   ```
-   venv\Scripts\activate
-   ```
-   - On MacOS and Linux:
-   ```
-   source venv/bin/activate
-   ```
-
-4. With the virtual environment activated, install the project dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-This project uses pytest for testing. If you haven't installed it yet, you can do so by running:
-
-```
-pip install pytest
-```
-
-To run tests, you can use the following command from the project directory:
-
-```
-pytest
-```
-
-This will discover tests following the pytest conventions and execute them.
-
-To deactivate the virtual environment when you're done, simply type:
-
-```
-deactivate
-```
-
-Remember, every time you start working on the project, activate the virtual environment and deactivate it once you're done.
-# CompToDNAPy
-
-CompToDNAPy is a Python project designed for bioengineering students to understand the process of selecting ribosome binding sites (RBS) and designing transcripts. This project follows the Function/Model pattern, separating data models from business logic.
+Inventory is a Python project that involves the implementation of a sample management system for biological research. The system defines classes for Boxes and Samples, enabling the organization, storage, and retrieval of biological samples within specific containers. The program facilitates the reading and creation of tab-separated value (TSV) files, allowing seamless integration with external data sources and the efficient management of experimental data in a laboratory setting.
 
 ## Getting Started
 
@@ -62,66 +16,34 @@ You need Python installed on your machine. If you don't have Python, let's insta
 1. Download Python from the official [Python website](https://www.python.org/downloads/).
 2. Run the installer and follow the on-screen instructions. Make sure to check the box that says "Add Python to PATH" before you click "Install Now".
 
-### Running the Program
+### Goal and Utilization of the Project
 
-1. Open your command prompt (cmd) or terminal.
-2. Navigate to the directory where you want to download this project.
-3. Clone the project to your local machine:
+The goal of this project is to develop a sample management system tailored for biological research, providing researchers with a flexible and efficient tool for organizing and tracking biological samples within laboratory boxes. The system aims to simplify the handling of experimental data by enabling the creation, retrieval, and manipulation of samples, as well as the import and export of data through tab-separated value (TSV) files. By offering robust functionality, the project aims to enhance the overall efficiency of sample management in biological laboratories.
 
-   ```
-   git clone https://github.com/your_username/CompToDNAPy.git
-   ```
-4. Change directories to enter the project:
-
-   ```
-   cd CompToDNAPy
-   ```
-5. Run the program:
-
-   ```
-   python3 -m comp_to_dna_py
-   ```
+To see the execution of this project, see the test files which walk through the creation of an inventory, boxes, and samples (next section).
 
 ### Running the Tests
 
-This project uses unittest as the testing framework. To run tests, follow these steps:
+This project uses testing files as the testing framework. To run tests, follow these steps:
 
-1. Navigate to the project directory if you're not already there.
+1. Navigate to the tests directory if you're not already there.
 
-2. Run the tests:
+2. Run the test files:
 
-   ```
-   python -m unittest discover tests
-   ```
+   - test_inventory.py
+   - test_box.py
+   - test_sample.py
+   
+   When testing read_tsv, sample tsv files "Box_Lyc7.txt" and "Box_Lyc15.txt" are used, which can both be found in the tests directory.
+   
+3. Each respective test file walks through the creation of an instance of the object at hand. Each of the functionalities of the objects is tested in a unique function, with assert statements to check the expected result. At the end of the file, you will see that each test function has been called, meaning that if there are any errors there will be no assert messages.
 
-## For Complete Beginners
+### Results of the Tests
 
-If this is your first time using the command line, don't worry, here are the steps you need to follow:
+As aforementioned, the results of the tests is shown through  assert statements of each test function in the test files. Each of the files have no returns when run, meaning that each of the objects that make up the storage system function correctly in accordance with expectations.
 
-1. How to open your command prompt or terminal:
-   - Windows: Press `Windows + R`, then type `cmd` and press `Enter`.
-   - Mac: Press `Cmd + Space` to open Spotlight, then type `Terminal` and press `Enter`.
-   - Linux: Press `Ctrl + Alt + T`.
+From the testing of create_tsv, we see that two tsv files are successfully created from box information. They are labeled as output_tsv_1 and output_tsv_2 and can be found in the tests directory. 
 
-2. How to navigate directories:
-   - Use the command `cd your_directory_name` to enter a specific directory.
-   - Use the command `cd ..` to go back one directory.
+## Author
 
-3. How to clone a GitHub project:
-   - First, you need to copy the project's URL from GitHub.
-   - In your terminal, type `git clone ` followed by the URL you copied.
-
-4. How to run a Python program or tests:
-   - Follow the instructions above in the "Running the Program" and "Running the Tests" sections.
-
-Don't be afraid to explore and make mistakes. That's a huge part of the learning process!
-
-## Authors
-
-* **Your Name** - *Initial work* - [YourUsername](https://github.com/your_username)
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Ethan Chung** - *EC* - [ethanlchung13](https://github.com/ethanlchung13)

@@ -1,0 +1,58 @@
+name	box1
+description	Example box being used for testing of box class functions.
+room	room1
+
+label	1	2	3	4	5	6	7	8	9
+A	plasmid2 uM10 uM10	plasmid3 uM10 uM10	plasmid1 dil20x dil20x	plasmid4 uM10 uM10	plasmid5 uM10 uM10	plasmid6 uM10 uM10	plasmid7 uM10 uM10	plasmid8 uM10 uM10	plasmid9 uM10 uM10	
+B	plasmid11 uM10 uM10	plasmid12 uM10 uM10	plasmid13 uM10 uM10	plasmid14 uM10 uM10	plasmid15 uM10 uM10	plasmid16 uM10 uM10	plasmid17 uM10 uM10	plasmid18 uM10 uM10	plasmid19 uM10 uM10	
+C	plasmid20 uM10 uM10	plasmid21 uM10 uM10	plasmid22 uM10 uM10	plasmid23 uM10 uM10	plasmid24 uM10 uM10	plasmid25 uM10 uM10	plasmid26 uM10 uM10	plasmid27 uM10 uM10	plasmid28 uM10 uM10	
+D	plasmid29 uM10 uM10	plasmid30 uM10 uM10	plasmid31 uM10 uM10	plasmid32 uM10 uM10	plasmid33 uM10 uM10	plasmid34 uM10 uM10	plasmid35 uM10 uM10	plasmid36 uM10 uM10	plasmid37 uM10 uM10	
+E	plasmid38 uM10 uM10	plasmid39 uM10 uM10	plasmid40 uM10 uM10	plasmid41 uM10 uM10	plasmid42 uM10 uM10					
+F										
+G										
+H										
+I										
+
+side_label	1	2	3	4	5	6	7	8	9
+A	plasmid2	plasmid3	plasmid1	plasmid4	plasmid5	plasmid6	plasmid7	plasmid8	plasmid9	
+B	plasmid11	plasmid12	plasmid13	plasmid14	plasmid15	plasmid16	plasmid17	plasmid18	plasmid19	
+C	plasmid20	plasmid21	plasmid22	plasmid23	plasmid24	plasmid25	plasmid26	plasmid27	plasmid28	
+D	plasmid29	plasmid30	plasmid31	plasmid32	plasmid33	plasmid34	plasmid35	plasmid36	plasmid37	
+E	plasmid38	plasmid39	plasmid40	plasmid41	plasmid42					
+F										
+G										
+H										
+I										
+
+construct	1	2	3	4	5	6	7	8	9
+A	plasmid2	plasmid3	plasmid1	plasmid4	plasmid5	plasmid6	plasmid7	plasmid8	plasmid9	
+B	plasmid11	plasmid12	plasmid13	plasmid14	plasmid15	plasmid16	plasmid17	plasmid18	plasmid19	
+C	plasmid20	plasmid21	plasmid22	plasmid23	plasmid24	plasmid25	plasmid26	plasmid27	plasmid28	
+D	plasmid29	plasmid30	plasmid31	plasmid32	plasmid33	plasmid34	plasmid35	plasmid36	plasmid37	
+E	plasmid38	plasmid39	plasmid40	plasmid41	plasmid42					
+F										
+G										
+H										
+I										
+
+concentration	1	2	3	4	5	6	7	8	9
+A	uM10	uM10	dil20x	uM10	uM10	uM10	uM10	uM10	uM10	
+B	uM10	uM10	uM10	uM10	uM10	uM10	uM10	uM10	uM10	
+C	uM10	uM10	uM10	uM10	uM10	uM10	uM10	uM10	uM10	
+D	uM10	uM10	uM10	uM10	uM10	uM10	uM10	uM10	uM10	
+E	uM10	uM10	uM10	uM10	uM10					
+F										
+G										
+H										
+I										
+
+culture	1	2	3	4	5	6	7	8	9
+A	primary	primary	primary	primary	primary	primary	primary	primary	primary	
+B	primary	primary	primary	primary	primary	primary	primary	primary	primary	
+C	primary	primary	primary	primary	primary	primary	primary	primary	primary	
+D	primary	primary	primary	primary	primary	primary	primary	primary	primary	
+E	primary	primary	primary	primary	primary					
+F										
+G										
+H										
+I										
