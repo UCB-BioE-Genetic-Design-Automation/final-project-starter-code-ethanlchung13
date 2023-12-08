@@ -18,7 +18,11 @@ You need Python installed on your machine. If you don't have Python, let's insta
 
 ### Goal and Utilization of the Project
 
-The goal of this project is to develop a sample management system tailored for biological research, providing researchers with a flexible and efficient tool for organizing and tracking biological samples within laboratory boxes. The system aims to simplify the handling of experimental data by enabling the creation, retrieval, and manipulation of samples, as well as the import and export of data through tab-separated value (TSV) files. By offering robust functionality, the project aims to enhance the overall efficiency of sample management in biological laboratories.
+The goal of this project is to develop a sample management system tailored for biological research, providing researchers with a flexible and efficient tool for organizing and tracking biological samples within laboratory boxes. The system aims to simplify the handling of experimental data by enabling the creation, retrieval, and manipulation of samples, as well as the import and export of data through tab-separated value (TSV) files. 
+
+An Inventory object should be able to store a list of boxes. Each box should have metadata of a name, description, and room. Boxes can store up to 9x9 samples. Samples store metadata for construct, concentration, label, side label, culture, and location. 
+
+By offering robust functionality, the project aims to enhance the overall efficiency of sample management in biological laboratories.
 
 To see the execution of this project, see the test files which walk through the creation of an inventory, boxes, and samples (next section).
 
